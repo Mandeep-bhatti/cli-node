@@ -1,0 +1,22 @@
+{
+  "name": "tsc-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts"
+  },
+  "bin": {
+    "nody": "node bin/index.js"
+  },
+  "author": "Mandeep Singh",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.1",
+    "chalk": "^5.0.0",
+    "eslint": "^8.5.0",
+    "ts-node": "^10.4.0"
+  }
+}
